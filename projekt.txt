@@ -1,6 +1,3 @@
-Na maszynie R1 zainstalować serwer www  apache2 według instrukcji podanej na platformie wykonanie zadania podać w tym pliku z wyszczególnieniem adresu ip nazwy maszyny użytkowników itd.
-
-@@ -0,0 +1,22 @@
 Maszyna R1_IIN__19_20_7:192.168.100.107
 
 
@@ -22,3 +19,4 @@ lines 1-18/18 (END)...skipping...
            ├─10991 /usr/sbin/httpd-prefork -DSYSCONFIG -C PidFile /var/run/httpd.pid -C Include /etc/apache2/sysconfig.d//loadmodule.conf -C Include /etc/apache2/sysconfig.d//global.conf -f /etc/apache2/httpd.conf -c Include /etc/apache>
            ├─10992 /usr/sbin/httpd-prefork -DSYSCONFIG -C PidFile /var/run/httpd.pid -C Include /etc/apache2/sysconfig.d//loadmodule.conf -C Include /etc/apache2/sysconfig.d//global.conf -f /etc/apache2/httpd.conf -c Include /etc/apache>
            └─10993 /usr/sbin/httpd-prefork -DSYSCONFIG -C PidFile /var/run/httpd.pid -C Include /etc/apache2/sysconfig.d//loadmodule.conf -C Include /etc/apache2/sysconfig.d//global.conf -f /etc/apache2/httpd.conf -c Include /etc/apache>
+
